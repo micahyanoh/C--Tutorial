@@ -95,6 +95,20 @@ void Defend();
 
 }
 
+public interface IWild
+{
+    void habitat();
+}
+
+// using interfaces to create abstractions
+public interface ITamedEnemy : IEnemy {
+    void Feed();
+    void Calm();
+
+
+}
+
+
 // implementing the interface
 
 class Dragon : IEnemy 
@@ -113,6 +127,49 @@ class Vampire : IEnemy
     public void Defend()
     {
         Console.WriteLine("Vampire dissapears in the air");
+    }
+}
+
+public class Dog : ITamedEnemy
+{
+    public void Attack()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Calm()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Defend()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Feed()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+// using interface for multiple inheritance
+
+public class Lion : IEnemy, IWild
+{
+    public void Attack()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Defend()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void habitat()
+    {
+        throw new NotImplementedException();
     }
 }
 public class Program
