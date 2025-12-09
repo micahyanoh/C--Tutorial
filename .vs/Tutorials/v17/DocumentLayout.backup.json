@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A623FD3-D3F8-4C69-8933-C21A10772B41}|Static\\Static.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\projects\\tutorials\\static\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A623FD3-D3F8-4C69-8933-C21A10772B41}|Static\\Static.csproj|solutionrelative:static\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Static\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "Static\\Program.cs",
               "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\Program.cs",
               "RelativeToolTip": "Static\\Program.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAHAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T11:22:18.442Z",
+              "WhenOpened": "2025-12-09T07:41:19.638Z",
               "EditorCaption": ""
             }
           ]

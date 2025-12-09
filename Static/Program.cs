@@ -64,22 +64,75 @@
 //****************************************static methods in action ***************************************
 
 
-public class Meeting
-{
-    public static void SayHello(string name)
-    {
-        Console.WriteLine("Hello " + name);
-    }
+//public class Meeting
+//{
+//    public static void SayHello(string name)
+//    {
+//        Console.WriteLine("Hello " + name);
+//    }
+//}
+
+
+//public class Program
+//{
+
+//    private static void Main(string[] args)
+//    {
+//        Meeting.SayHello("Alf");
+//        Meeting.SayHello("Joe");
+//    }
+
+//}
+
+
+//****************************************INTERFACES ***************************************
+
+
+public interface IEnemy { 
+
+void Attack();
+void Defend();
+
 }
 
+// implementing the interface
 
+class Dragon : IEnemy 
+{
+    public void Attack() { Console.WriteLine(" Dragon Breathes fire"); }
+    public void Defend() { Console.WriteLine("Dragon Spreads wings"); }
+}
+
+class Vampire : IEnemy
+{
+    public void Attack()
+    {
+        Console.WriteLine("Vampire realeases its fangs");
+    }
+
+    public void Defend()
+    {
+        Console.WriteLine("Vampire dissapears in the air");
+    }
+}
 public class Program
 {
-
-    private static void Main(string[] args)
+    private static void Main (string[] args)
     {
-        Meeting.SayHello("Alf");
-        Meeting.SayHello("Joe");
+        IEnemy e1 = new Dragon();
+        IEnemy e2 = new Vampire();
+        //e1.Attack();
+        //e2.Attack();
+        //e1.Defend();
+        //e2.Defend();
+
+        List<IEnemy> list = new List<IEnemy>();
+        list.Add(e1);
+        list.Add(e2);
+
+        foreach (IEnemy e in list) { 
+        e.Attack();
+            e.Defend();
+        }
     }
-    
 }

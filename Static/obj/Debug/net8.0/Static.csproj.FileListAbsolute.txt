@@ -13,3 +13,18 @@ C:\Users\alfonce.yano\Desktop\Projects\Contributions\online-forum-for-women\admi
 C:\Users\alfonce.yano\Desktop\Projects\Contributions\online-forum-for-women\admin_dash\Static\Static\obj\Debug\net8.0\Static.pdb
 C:\Users\alfonce.yano\Desktop\Projects\Contributions\online-forum-for-women\admin_dash\Static\Static\obj\Debug\net8.0\Static.genruntimeconfig.cache
 C:\Users\alfonce.yano\Desktop\Projects\Contributions\online-forum-for-women\admin_dash\Static\Static\obj\Debug\net8.0\ref\Static.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.AssemblyInfoInputs.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.AssemblyInfo.cs
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.csproj.CoreCompileInputs.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.sourcelink.json
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\refint\Static.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.pdb
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\bin\Debug\net8.0\Static.exe
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\bin\Debug\net8.0\Static.deps.json
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\bin\Debug\net8.0\Static.runtimeconfig.json
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\bin\Debug\net8.0\Static.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\bin\Debug\net8.0\Static.pdb
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\Static.genruntimeconfig.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\Projects\Tutorials\Static\obj\Debug\net8.0\ref\Static.dll

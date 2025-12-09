@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alfonce.yano\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj": {}
+    "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alfonce.yano\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj": {
+    "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alfonce.yano\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj",
+        "projectUniqueName": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj",
         "projectName": "Static",
-        "projectPath": "C:\\Users\\alfonce.yano\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj",
+        "projectPath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\Static.csproj",
         "packagesPath": "C:\\Users\\alfonce.yano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alfonce.yano\\Desktop\\Projects\\Tutorials\\Static\\obj\\",
+        "outputPath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\Projects\\Tutorials\\Static\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
