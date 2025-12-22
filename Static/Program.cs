@@ -198,35 +198,155 @@
 //****************************************PARTIAL CLASSES***************************************
 // can be used to divide a class into different components
 
-public partial class Book// defining attributes
+//public partial class Book// defining attributes
+//{
+//    public string title { get; set; }
+//    public string description { get; set; }
+//    public string author { get; set; }
+//}
+
+//public partial class Book // defining methods
+//{
+//    public void ShowInfo()
+//    {
+//        Console.WriteLine($"Title: {title}");
+//        Console.WriteLine($"Description: {description}");
+//        Console.WriteLine($"Author: {author}");
+//    }
+
+//}
+
+
+//public class Program
+//{
+//    public static void Main( string[] args)
+//    {
+//        Book book1 = new Book();
+//        book1.title = "Art of Programing";
+//        book1.description = "A Beginners Programing Guide";
+//        book1.author = "Linus Tovads";
+
+//        book1.ShowInfo();
+
+//    }
+//}
+
+
+//**************************************** IF STATEMENTS ***************************************
+
+
+
+//if (1 == 2)
+//{
+//    Console.WriteLine("1 is equal to 1");
+//}
+//else
+//{
+//    Console.WriteLine("Condition is false");
+//}   
+
+//bool hasCat = false;
+
+//if (hasCat)
+//{
+//    Console.WriteLine("Feed your cat");
+//}
+//else
+//{
+//    Console.WriteLine("Get a cat, cats are awesome");
+//}
+//Console.ForegroundColor = ConsoleColor.Green;
+//Console.WriteLine("Enter your cat's weight in kgs:");
+//int catWeight = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter your cat's age in years:");
+//int catAge = int.Parse(Console.ReadLine());
+
+//Console.ForegroundColor = ConsoleColor.Red;
+//Console.BackgroundColor = ConsoleColor.White;
+
+//if (catWeight <= 4)
+//{
+
+//    Console.WriteLine("Your cat is a small cat");
+//    //nested if statement
+//    if (catAge > 2) Console.WriteLine("Your cat is underweight, please feed it more");
+
+//    else Console.WriteLine("Your cat is of normal weight");
+
+//}
+//else if(catWeight>4 && catWeight<6)
+//{
+//   Console.WriteLine("Your cat is a medium sized cat");
+//}
+//else
+//{
+//    Console.WriteLine("Your cat is a big cat");
+//}
+
+//Console.ResetColor();
+
+//**************************************** SWITCH STATEMENTS ***************************************
+
+//List<string> languages= [ "English", "Kiswahili", "Luo", "Hindu" ];
+//List<string> greeting = ["Hello", "Habari", "Ber", "Namaste"];
+
+//Console.WriteLine("Please Select a language:");
+//Console.ForegroundColor = ConsoleColor.Red;
+//languages.ForEach(lang => Console.WriteLine($"{languages.IndexOf(lang)}: {lang}"));
+
+//Console.WriteLine("Enter your choice:");
+
+//Console.ForegroundColor = ConsoleColor.Green;
+//int choice = int.Parse(Console.ReadLine());
+
+////try { Console.WriteLine($"{greeting[choice]}"); }
+////catch (ArgumentOutOfRangeException)
+////{
+////    Console.ForegroundColor = ConsoleColor.Red;
+////    Console.WriteLine("Invalid choice, please select a valid option");
+////    Console.ResetColor();
+////}
+
+//// using switch statement
+//string greet;
+
+//switch (choice)
+//{
+//    case 0: greet = "Hello"; break;
+//    case 1: greet = "Habari"; break;
+//    case 2: greet = "Ber";break;
+//    case 3: greet = "Namaste"; break;
+//    default: greet = "Invalid Choice";  break;
+//}
+
+//Console.WriteLine(greet);
+
+List<string> month = new List<string> { "Jan", "Feb", "Mar", "Apr", "May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" };
+
+Console.WriteLine("Select a Month:");
+Console.ForegroundColor = ConsoleColor.Yellow;
+month.ForEach(m => Console.WriteLine($"{month.IndexOf(m)+1}: {m}"));
+Console.ResetColor();
+Console.WriteLine("Enter your choice:");
+Console.ForegroundColor = ConsoleColor.Green;
+int choice = int.Parse(Console.ReadLine());
+dynamic daysInMonth = "Not Valid";
+
+switch (choice)
 {
-    public string title { get; set; }
-    public string description { get; set; }
-    public string author { get; set; }
+    case 2: daysInMonth = "28 OR 29 in a Leap Year"; break;
+    case 1:
+    case 3:
+    case 5:
+    case 7: 
+    case 8: 
+    case 10: 
+    case 12: daysInMonth = 31; break;
+    case 4: 
+    case 6:
+    case 9:
+    case 11: daysInMonth = 30; break;
+  
 }
-
-public partial class Book // defining methods
-{
-    public void ShowInfo()
-    {
-        Console.WriteLine($"Title: {title}");
-        Console.WriteLine($"Description: {description}");
-        Console.WriteLine($"Author: {author}");
-    }
-
-}
-
-
-public class Program
-{
-    public static void Main( string[] args)
-    {
-        Book book1 = new Book();
-        book1.title = "Art of Programing";
-        book1.description = "A Beginners Programing Guide";
-        book1.author = "Linus Tovads";
-
-        book1.ShowInfo();
-
-    }
-}
+Console.WriteLine($"Number of days: {daysInMonth}");
+Console.ResetColor();
