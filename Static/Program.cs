@@ -321,32 +321,103 @@
 
 //Console.WriteLine(greet);
 
-List<string> month = new List<string> { "Jan", "Feb", "Mar", "Apr", "May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" };
+//List<string> month = new List<string> { "Jan", "Feb", "Mar", "Apr", "May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" };
 
-Console.WriteLine("Select a Month:");
-Console.ForegroundColor = ConsoleColor.Yellow;
-month.ForEach(m => Console.WriteLine($"{month.IndexOf(m)+1}: {m}"));
-Console.ResetColor();
-Console.WriteLine("Enter your choice:");
-Console.ForegroundColor = ConsoleColor.Green;
-int choice = int.Parse(Console.ReadLine());
-dynamic daysInMonth = "Not Valid";
+//Console.WriteLine("Select a Month:");
+//Console.ForegroundColor = ConsoleColor.Yellow;
+//month.ForEach(m => Console.WriteLine($"{month.IndexOf(m)+1}: {m}"));
+//Console.ResetColor();
+//Console.WriteLine("Enter your choice:");
+//Console.ForegroundColor = ConsoleColor.Green;
+//int choice = int.Parse(Console.ReadLine());
+//dynamic daysInMonth = "Not Valid";
 
-switch (choice)
-{
-    case 2: daysInMonth = "28 OR 29 in a Leap Year"; break;
-    case 1:
-    case 3:
-    case 5:
-    case 7: 
-    case 8: 
-    case 10: 
-    case 12: daysInMonth = 31; break;
-    case 4: 
-    case 6:
-    case 9:
-    case 11: daysInMonth = 30; break;
-  
+//switch (choice)
+//{
+//    case 2: daysInMonth = "28 OR 29 in a Leap Year"; break;
+//    case 1:
+//    case 3:
+//    case 5:
+//    case 7: 
+//    case 8: 
+//    case 10: 
+//    case 12: daysInMonth = 31; break;
+//    case 4: 
+//    case 6:
+//    case 9:
+//    case 11: daysInMonth = 30; break;
+
+//}
+//Console.WriteLine($"Number of days: {daysInMonth}");
+//Console.ResetColor();
+
+
+
+//**************************************** DO WHILE LOOPS ***************************************
+
+//int dough = 500;
+//int breadCount = 0;
+
+//do 
+//{ 
+//    Console.WriteLine("Baking bread...");
+//    dough -= 100;
+//    breadCount++;
+//    Console.ForegroundColor= ConsoleColor.Red;
+//    Console.WriteLine($"Bread baked: {breadCount}");
+//    Console.ResetColor();
+//}
+
+//while (dough>=100);
+//Console.ForegroundColor= ConsoleColor.Green;
+//Console.WriteLine($"PACKING... {breadCount} BREAD");
+//Console.ResetColor();
+
+
+//Console.ForegroundColor= ConsoleColor.Yellow;
+//Console.WriteLine("Hello World!");
+//Console.ResetColor();
+//string stop;
+
+//do 
+//{
+//    Console.ForegroundColor= ConsoleColor.Red;
+//    Console.WriteLine("Type 'exit' to quit...");
+//    Console.ResetColor();
+//    Console.ForegroundColor= ConsoleColor.Green;
+//    stop = Console.ReadLine();
+//    Console.ResetColor();
+
+//}
+
+//while (stop.ToLower() !="exit");
+
+
+//**************************************** DO WHILE LOOPS ***************************************
+
+//int counter = 1;
+
+//while (counter <= 5)
+//{
+//    Console.WriteLine($"{counter} ");
+//    counter++;
+//}
+
+
+// sum of numbers between 1000,0000
+
+int counter = 1;
+double sum = 0;
+Console.WriteLine("Calculating ...");
+while (counter<=3)
+
+{ 
+    int mod = counter % 2;
+    if (mod == 0)
+    {
+        sum += counter;
+    }
+    counter++;
+
 }
-Console.WriteLine($"Number of days: {daysInMonth}");
-Console.ResetColor();
+Console.WriteLine($"The sum is: {sum}");
