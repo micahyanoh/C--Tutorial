@@ -406,18 +406,32 @@
 
 // sum of numbers between 1000,0000
 
-int counter = 1;
+//int counter = 1;
+//double sum = 0;
+//Console.WriteLine("Calculating ...");
+//while (counter<=3)
+
+//{ 
+//    int mod = counter % 2;
+//    if (mod == 0)
+//    {
+//        sum += counter;
+//    }
+//    counter++;
+
+//}
+//Console.WriteLine($"The sum is: {sum}");
+
+
+//**************************************** FOR LOOPS ***************************************
 double sum = 0;
-Console.WriteLine("Calculating ...");
-while (counter<=3)
+for (int i=0;i<=4; i++) 
 
-{ 
-    int mod = counter % 2;
-    if (mod == 0)
+{
+    if (i % 2 == 0)
     {
-        sum += counter;
+        sum += i;
     }
-    counter++;
-
 }
+
 Console.WriteLine($"The sum is: {sum}");
