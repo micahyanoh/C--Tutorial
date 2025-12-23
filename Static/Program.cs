@@ -424,14 +424,54 @@
 
 
 //**************************************** FOR LOOPS ***************************************
-double sum = 0;
-for (int i=0;i<=4; i++) 
+//double sum = 0;
+//for (int i=0;i<=4; i++) 
 
+//{
+//    if (i % 2 == 0)
+//    {
+//        sum += i;
+//    }
+//}
+
+//Console.WriteLine($"The sum is: {sum}");
+
+
+//**************************************** GENERICS ***************************************
+
+using System.Globalization;
+
+public class Program
 {
-    if (i % 2 == 0)
+    //private static void printArray(int[] numbers) { 
+
+    //    foreach (int num in numbers) 
+    //    {
+    //        Console.WriteLine(num);
+    //    }
+    //}
+    //private static void printArray(string[] words)
+    //{
+
+    //    foreach (string word in words)
+    //    {
+    //        Console.WriteLine(word);
+    //    }
+    //}
+
+    // generic method
+    private static void printArray<T>(T[]array)
     {
-        sum += i;
+        foreach(T item in array)
+        {
+            Console.WriteLine(item);
+        }
+    }
+    public static void Main(string[] args)
+    {
+        int[]nums={ 1,3,5,8,10};
+        string[] words={ "apple", "banana", "cherry"};
+        printArray(words);
+        printArray(nums);
     }
 }
-
-Console.WriteLine($"The sum is: {sum}");
